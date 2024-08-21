@@ -1,1 +1,6 @@
-# oliveyoung_review_analyze
+# oliveyoung 선케어 제품 리뷰 크롤링 및 데이터 분석 + AI 추천 사이트 구현
+
+Oliveyoung 선케어제품 전부의 리뷰를 모아 토큰화를 진행해보았고,   
+토큰화로 워드클라우드 생성 이를 통한 데이터 분석을 진행
+전체 리뷰를 임베딩 벡터화하여 PINECONE에 업로드,
+이를 통해 STREAMLIT을 활용하여 AI가 추천해주는 선케어 제품 사이트 구현
